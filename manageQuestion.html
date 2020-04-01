@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ManageQuestions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      body {
+  background-color: lightblue;
+}
+
+      .navbar {
+        overflow: hidden;
+        background-color: #3371FF;
+      }
+      
+      .navbar a {
+        float: right;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+      </style>
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          resize: vertical;
+        }
+        
+        label {
+          padding: 12px 12px 12px 0;
+          display: inline-block;
+        }
+        
+        input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          float: right;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .savebtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: green;
+  }
+
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+
+        .savebtn {
+       width: 100%;
+    }
+    </style>
+    
+</head>
+<head>
+    
+</head>
+<body>
+    <div class="navbar">
+        <a href="login.html">Log-Out</a>
+        <a href="index.html">Home</a>
+        <a href="student.html">Student</a>
+        <a href="teacher.html">Teacher</a>
+        <a href="result.html">Result</a>
+        <a href="administer">Administor</a>
+      </div>
+      <h1> Manage Question Paper</h1>
+
+      <div class="question">
+        <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="question">Question</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="question" name="question" placeholder="Enter the Question....">
+          </div>
+        </div>
+        
+        <div class="op1">
+            <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="op1">Option. 1</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="op1" name="op1" placeholder="Enter the Option 1....">
+              </div>
+            </div>
+
+            <div class="op2">
+                <form action="/action_page.php">
+                <div class="row">
+                  <div class="col-25">
+                    <label for="op2">Option. 2</label>
+                  </div>
+                  <div class="col-75">
+                    <input type="text" id="op2" name="op2" placeholder="Enter the Option 2....">
+                  </div>
+                </div>
+
+                <div class="op3">
+                    <form action="/action_page.php">
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="op3">Option. 1</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="op3" name="op3" placeholder="Enter the Option 3....">
+                      </div>
+                    </div>
+
+                    <div class="op4">
+                        <form action="/action_page.php">
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="op4">Option. 1</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="op4" name="op4" placeholder="Enter the Option 4....">
+                          </div>
+                        </div>
+
+                        <div class="Answer">
+                            <form action="/action_page.php">
+                            <div class="row">
+                              <div class="col-25">
+                                <label for="ans">Right Answer</label>
+                              </div>
+                              <div class="col-75">
+                                <input type="text" id="ans" name="Answer" placeholder="Enter the Right Answer....">
+                              </div>
+                            </div>
+
+                            <div class="container" style="background-color:#f1f1f1">
+                                <button type="button" class="savebtn">Save</button>
+                              </div>
+</body>
+</html>
